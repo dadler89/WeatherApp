@@ -5,7 +5,7 @@ const app = express();
 app.get("/", (req, res) => {
 
 
-  const url = "https://api.openweathermap.org/data/2.5/weather?zip=62002&units=imperial&appid=8280099c63bd8635f837d92b275c23d1"
+  const url = `https://api.openweathermap.org/data/2.5/weather?zip=62002&units=${process.env.OPEN_WEATHER}`
 https.get(url, (response) => {
   console.log(response);
 })
