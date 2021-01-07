@@ -1,0 +1,24 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "WeatherApp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Adler",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadler89/WeatherApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dadler89/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/dadler89/WeatherApp#readme"
+}
